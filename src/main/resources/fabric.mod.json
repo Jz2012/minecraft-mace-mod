@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "macemod",
+  "version": "${version}",
+  "name": "Mace Mod",
+  "description": "Custom enchantments for the Mace weapon",
+  "authors": [
+    "Jz2012"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/macemod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.jz2012.macemod.MaceMod"
+    ]
+  },
+  "mixins": [
+    "macemod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
