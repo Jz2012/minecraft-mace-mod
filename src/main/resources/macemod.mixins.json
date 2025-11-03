@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.jz2012.macemod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MaceItemMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
