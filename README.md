@@ -52,7 +52,7 @@ The compiled jar will be in `build/libs/`
 1. **Obtaining Enchantments:**
    - Use an enchanting table with a Mace
    - Use an anvil to combine enchanted books with your Mace
-   - Use creative mode: `/enchant @p macemod:nuke 1`
+   - Use creative mode: `/enchantedmace nuke`
 
 2. **Activating Enchantments:**
    - Jump or fall from a height (at least 1.5 blocks)
@@ -64,9 +64,9 @@ The compiled jar will be in `build/libs/`
 Give yourself an enchanted mace:
 
 ```
-/give @p minecraft:mace{Enchantments:[{id:"macemod:nuke",lvl:1}]}
-/give @p minecraft:mace{Enchantments:[{id:"macemod:shockwave",lvl:1}]}
-/give @p minecraft:mace{Enchantments:[{id:"macemod:lightning",lvl:1}]}
+/enchantedmace nuke
+/enchantedmace lightning
+/enchantedmace shockwave
 ```
 
 Enchant a held mace:
